@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            card_view:cardCornerRadius="4dp">
+        <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="88dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                    app:civ_border_color="#ffffff"
+                    app:civ_border_width="2dp"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    tools:src="@drawable/avatar"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/profile_icon"/>
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/profile_icon"
+                    android:layout_toEndOf="@+id/profile_icon"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        tools:text="Ogundiran Al-Ameen"
+                        android:maxLength="35"
+                        android:maxWidth="200dp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:id="@+id/txt_full_name"
+                        android:textColor="@color/fullname"
+
+                        android:textStyle="bold"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        tools:text="\@alameen688"
+                        android:textColor="@color/username"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:id="@+id/txt_user_name"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:text=""
+                        android:textColor="@color/bio"
+                        android:textSize="13sp"
+                        android:maxLength="45"
+                        android:maxLines="1"
+                        android:maxWidth="240dp"
+                        android:ellipsize="end"
+                        tools:text="Codebeast - Programmer - Open Source - Switch.io"
+                        tools:textSize="13sp"
+                        tools:maxLength="45"
+                        tools:maxWidth="240dp"
+                        tools:maxLines="1"
+                        tools:ellipsize="end"
+                        tools:visibility="visible"
+                        android:id="@+id/txt_bio"/>
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200 repo"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/repo"
+                    android:id="@+id/txt_total_repo"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

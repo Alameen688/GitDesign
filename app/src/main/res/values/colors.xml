@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#4285f4</color>
+    <color name="fullname">#4078c0</color>
+    <color name="repo">#303030</color>
+    <color name="username">#767676</color>
+    <color name="bio">#666666</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+    <color name="git_black">#303030</color>
+    <color name="git_purple">#6e5494</color>
+    <color name="git_blue">#4078c0</color>
+    <color name="git_green">#6cc644</color>
+    <color name="git_red">#bd2c00</color>
+    <color name="git_orange">#c9510c</color>
+    <color name="git_gray_light">#999</color>
+    <color name="git_gray">#767676</color>
+    <color name="git_gray_dark">#666666</color>
+
+</resources>
